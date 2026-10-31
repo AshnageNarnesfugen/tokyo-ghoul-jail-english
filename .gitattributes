@@ -1,0 +1,2 @@
+# Store every file byte for byte: apply.bat and README.txt must keep CRLF, apply.sh LF.
+* -text
