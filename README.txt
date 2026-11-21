@@ -2,8 +2,8 @@ Tokyo Ghoul: Jail (PS Vita, PCSG00615) - English Fan Translation
 ================================================================
 
 Translates the full story (139 scenes, about 11,400 lines), choices,
-chapter titles, nameplates, menus, map, battle HUD and results, skill
-sheet and extras.
+chapter titles, nameplates, menus, map, battle tutorial, battle HUD and
+results, skill sheet and extras.
 
 You need the Japanese game (PCSG00615, version 01.00) already
 installed. No game data is included: the patcher builds the English
@@ -61,6 +61,17 @@ keeps its Japanese chapter title in the save slot until you save again.
 
 Back to Japanese: on PS Vita, delete ux0:rePatch/PCSG00615. On Vita3K,
 reinstall the game.
+
+
+Updating from v1.0
+------------------
+The patcher always starts from the original Japanese files: on files
+already patched with v1.0 it reports MISMATCH.
+- PS Vita: ux0:app still holds the original files. Repeat steps C2 to
+  C5 and replace the files in ux0:rePatch/PCSG00615.
+- Vita3K: reinstall the game, or use the copy of the original files you
+  patched before if you kept it (on Android, the folder from step B1),
+  then patch again.
 
 
 If something goes wrong
